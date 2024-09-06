@@ -1,1 +1,6 @@
+@echo off
+echo Starting...
+sleep 2
+echo Starting...
+sleep 2
 start cmd1.bat
