@@ -57,7 +57,7 @@ Variable 5 is the number of media. Usually this is a number, but special variabl
 
 5/sep/24: Created Repo
 
-Distributed under the GNU 3.0 license. 
+Distributed under the GNU 3.0 license. Please by using this software, you agree to this.
 
 ## Contributing
 
