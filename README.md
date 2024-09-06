@@ -2,7 +2,7 @@
 
 > A simple windows CLI application for accessing pirated media. These are all checked by us, and are 100% safe.
 
--THIS IS A WORK IN PROGRESS-
+-THIS IS A WORK IN PROGRESS!-
 
 ## Installation
 
