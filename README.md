@@ -17,7 +17,6 @@ Windows:
 Example command:
 ```
 search-manga-one-piece.volumes-1
-
 ```
 This will download One Piece volume 1.
 
