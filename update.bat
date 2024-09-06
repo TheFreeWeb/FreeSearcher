@@ -5,3 +5,4 @@ Xcopy freesearcherlinkdir-main /d /E /H /C /I /Y
 rmdir freesearcherlinkdir-main /s /Q
 del freesearcherlinkdir-main.zip /s /Q 
 del README.md /Q
+echo Updated.
