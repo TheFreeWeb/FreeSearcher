@@ -7,7 +7,6 @@ ___________________________________________ ____________________   _____ _______
  \___  /    |____|_  /_______  //_______  /_______  //_______  /\____|__  /____|_  /\______  /\___|_  /_______  / |____|_  / 
      \/            \/        \/         \/        \/         \/         \/       \/        \/       \/        \/         \/
 ```
-#THIS IS BEING FALSELEY FLAGGED BY AV VENDORS. No idea why this is happening, all the exe does is call a batch script. The only way to help is to submit our file to your AV provider, and hope they can whitelist it. (if you can't be bothered to fix your av, run start.bat, however it is a hidden file and hides whenever you update so this can be quite a hassle)
 
 A simple windows CLI application for accessing ripped media. These are all checked by us, and are 100% safe.
 
@@ -37,7 +36,7 @@ Or open Main.sh in your file manager
 
 Windows:
 
-> Unzip the file and run searcher.exe (if you can't be bothered to fix your av, run start.bat)
+> Unzip the file and run searcher.exe as admin (or run start.bat)
 
 Example command:
 ```
