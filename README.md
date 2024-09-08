@@ -15,9 +15,13 @@ A simple windows CLI application for accessing ripped media. These are all check
 
 ## Installation
 
-OS X & Linux:
+OS X:
 
 > Not Currently Supported
+
+Linux:
+
+>https://github.com/XanderIsBored/thefreesearcherforlinux
 
 Windows:
 
