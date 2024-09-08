@@ -1,4 +1,4 @@
-# FreeSearcher
+# FreeSearcher 
 ```
 ___________________________________________ ____________________   _____ ___________________   ___ ________________________  
 \_   _____/\______   \_   _____/\_   _____//   _____/\_   _____/  /  _  \\______   \_   ___ \ /   |   \_   _____/\______   \ 
@@ -7,7 +7,7 @@ ___________________________________________ ____________________   _____ _______
  \___  /    |____|_  /_______  //_______  /_______  //_______  /\____|__  /____|_  /\______  /\___|_  /_______  / |____|_  / 
      \/            \/        \/         \/        \/         \/         \/       \/        \/       \/        \/         \/
 ```
-#THIS IS BEING FALSELEY FLAGGED BY AV VENDORS. No idea why this is happening, all the exe does is call a batch script. The only way to help is to submit our file to your AV provider, and hope they can whitelist it.
+#THIS IS BEING FALSELEY FLAGGED BY AV VENDORS. No idea why this is happening, all the exe does is call a batch script. The only way to help is to submit our file to your AV provider, and hope they can whitelist it. (if you can't be bothered to fix your av, run start.bat)
 
 A simple windows CLI application for accessing ripped media. These are all checked by us, and are 100% safe.
 
@@ -25,7 +25,7 @@ Linux:
 
 Windows:
 
-> Unzip the file and run searcher.exe
+> Unzip the file and run searcher.exe (if you can't be bothered to fix your av, run start.bat)
 
 Example command:
 ```
