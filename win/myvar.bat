@@ -1,3 +1,3 @@
 @echo off
-call b.bat
+call myvar.bat
 echo %MYVAR%
