@@ -7,5 +7,6 @@ rmdir freesearcherlinkdir-main /s /Q
 del freesearcherlinkdir-main.zip /s /Q 
 del README.md /Q
 attrib +h *.bat
+attrib +h *.sh
 echo Update installed
 
