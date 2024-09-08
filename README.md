@@ -84,6 +84,8 @@ Variable 5 is the number of media. Usually this is a number, but special variabl
 
 Distributed under the GNU 3.0 license. Please by using this software, you agree to this.
 
+Linux port by XanderIsBored
+
 ## Contributing
 
 > Send files as a catbox or fileditch link, in an ISSUE request. These must be clean. No video games or cracked executables please!
