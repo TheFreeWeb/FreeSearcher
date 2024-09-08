@@ -36,7 +36,7 @@ Or open Main.sh in your file manager
 
 Windows:
 
-> Unzip the file and run searcher.exe as admin (or run start.bat)
+> Unzip the file and run searcher.exe as admin (or run start.bat as admin, this file is hidden)
 
 Example command:
 ```
