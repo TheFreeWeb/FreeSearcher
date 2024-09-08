@@ -23,5 +23,5 @@ cd /d %~dp0
 cmd.exe
 cd linkdir
 attrib +h *.bat
-del /S *.jpg
+del /S *.sh
 pause 
