@@ -23,9 +23,10 @@ Linux:
 
 Download the files and extract them to your desired location
 
-Then cd to that location in terminal.
+Then cd into the linux folder
 
 Then make the file executable using
+
 >  chmod u+x Main.sh
 
 To run the program, while in the directory of install, run:
