@@ -77,6 +77,8 @@ Variable 5 is the number of media. Usually this is a number, but special variabl
 
 ## Changelog
 
+8/sep/24: Linux ported by XanderIsBored
+
 6/sep/24: Version 1.0 release.
 
 5/sep/24: Created Repo
