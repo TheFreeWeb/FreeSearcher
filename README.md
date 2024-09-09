@@ -36,7 +36,7 @@ Or open Main.sh in your file manager
 
 Windows:
 
-> Unzip the file and run startupfreesearcher.exe as admin (or run start.bat as admin, this file is hidden)
+> Unzip the file and run searcher.exe as admin (or run start.bat as admin, this file is hidden)
 WINDOWS MAY REQUIRE A CLOUD SECURITY SCAN, THIS IS FINE
 
 Example command:
