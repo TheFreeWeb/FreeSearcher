@@ -17,7 +17,7 @@ if [ "$answer" != "${answer#[Yy]}" ] ;then
 fi
 
 
-echo -e "${yellow}Welcome to V1.0 of the FreeSearcher CLI ${blue}Linux Edition"
+echo -e "${yellow}Welcome to V1.4 of the FreeSearcher CLI ${blue}Linux Edition"
 echo -e "${yellow}enter your prompt:${blue}"
 
 read location
