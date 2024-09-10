@@ -5,7 +5,7 @@ green="\e[0;92m"
 reset="\e[0m"
 yellow="\e[0;33m"
 
-echo -e "${green}updating..."
+echo -e "${green}Updating..."
 ./Update.sh
 
 
