@@ -98,6 +98,6 @@ Linux port by XanderIsBored
 
 ## Contributing
 
-> Send files as a catbox or fileditch link, in an ISSUE request. These must be clean. No video games or cracked executables please!
+> Send files as a catbox or fileditch link, in an ISSUE request.
 > You may also help support the project by refining code.
 Help create batch scripts in the links repo here: https://github.com/TheFreeWeb/freesearcherlinkdir
