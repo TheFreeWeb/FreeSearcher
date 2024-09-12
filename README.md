@@ -36,7 +36,7 @@ Or open Main.sh in your file manager
 
 Windows:
 
-Unzip the file. Run "run.ps1" as admin. You must have 'Bypass' Exec Policy. 
+Unzip the file. Run "run.ps1" in powershell. You must have 'Bypass' Exec Policy. 
 ```
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope LocalMachine -Force
 ```
