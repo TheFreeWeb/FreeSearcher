@@ -9,6 +9,7 @@ Xcopy freesearcherlinkdir-main /d /E /H /C /I /Y
 rmdir freesearcherlinkdir-main /s /Q 
 del freesearcherlinkdir-main.zip /s /Q
 del README.md /Q 
+prompt $g$g$g
 attrib +h *.bat 
 attrib +h *.sh
 echo Update installed
