@@ -38,7 +38,8 @@ Windows:
 
 Unzip the file. Run "run.ps1" as admin. 
 (or run start.bat as admin, this file is hidden)
-To create an executable file for regualr usage, install NSIS(https://nsis.sourceforge.io/Main_Page), then open source.nsi in the NSIS exe compiler.
+To create an executable file for regualr usage, install NSIS
+(https://nsis.sourceforge.io/Main_Page), then open source.nsi in the NSIS exe compiler.
 WINDOWS MAY REQUIRE A CLOUD SECURITY SCAN, THIS IS FINE
 
 Example command:
