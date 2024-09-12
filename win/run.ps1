@@ -14,5 +14,5 @@ if ((Test-Admin) -eq $false)  {
     exit
 }
 
-'running with full privileges'
-Start-Process -FilePath "$PSScriptRoot\cmd1.bat" -NoNewWindow -Wait
+Start-Process "cmd1.bat"
+
