@@ -12,6 +12,8 @@ A simple windows CLI application for accessing ripped media. These are all check
 
 -THIS IS A WORK IN PROGRESS!-
 
+## RUN search-help FOR MORE INFO
+
 ## Installation
 
 OS X:
@@ -94,6 +96,8 @@ Variable 5 is the number of media. Usually this is a number, but special variabl
 >All
 >Season(number)
 >Or some type of other catergorization.
+
+## TO MANUALLY UPDATE RUN search-update
 
 ## Changelog
 
