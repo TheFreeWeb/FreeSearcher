@@ -53,6 +53,17 @@ search-manga-one-piece.volumes-1
 ```
 This will download One Piece volume 1.
 
+ChromeBook:
+
+Enable Linux Dev Enviroment.
+
+Drag the files for the linux port into the new 'linux files' folder. Open your linux terminal and run 
+```
+chmod u+x Main.sh
+chmod u+x goob.sh
+chmod u+x Update.sh
+```
+Then run ./Main.sh. YOU MUST DO THIS EVERY TIME YOU WISH TO USE THE PROGRAM!
 ## Usage 
 
 Variable 1 is the action. Currently this includes
