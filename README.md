@@ -63,7 +63,7 @@ Drag the files for the linux port into the new 'linux files' folder. Open your l
 ```
 chmod u+x Main.sh
 chmod u+x goob.sh
-chmod u+x Update.sh
+chmod u+x search-update.sh
 ```
 Then run ./Main.sh. YOU MUST DO THIS EVERY TIME YOU WISH TO USE THE PROGRAM!
 ## Usage 
