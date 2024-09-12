@@ -1,4 +1,6 @@
 @ECHO off
+cd /d %~dp0
+cmd.exe
 ECHO Welcome to V1.4 of the FreeSearcher CLI
 Color E
 echo Checking for updates!
