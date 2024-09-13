@@ -6,7 +6,9 @@ reset="\e[0m"
 yellow="\e[0;33m"
 
 echo -e "${green}Updating..."
-./Update.sh
+chmod u+x update.sh
+chmod u+x goob.sh
+./update.sh
 
 
 echo -e "${blue}Do you wish to see the availible downloads? [Yy,Nn] ${green}"
