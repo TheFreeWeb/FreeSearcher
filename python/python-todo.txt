@@ -1,0 +1,4 @@
+*Make Update.py
+*Add list command
+*Add help command
+*Use commands like the original
