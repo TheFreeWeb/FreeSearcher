@@ -55,6 +55,19 @@ search-manga-one-piece.volumes-1
 ```
 This will download One Piece volume 1.
 
+Python:
+
+1. install requests library
+```
+pip install requests
+```
+
+2. run updateinstall.py to install
+
+3. run freesearcher-python.py to use!
+
+4. make sure to run updateinstall.py to update regularly
+
 ChromeBook:
 
 Enable Linux Dev Enviroment.
@@ -98,6 +111,8 @@ Variable 5 is the number of media. Usually this is a number, but special variabl
 ## TO MANUALLY UPDATE RUN search-update
 
 ## Changelog
+
+18/sep/24: Python port one released by MartyCat111
 
 8/sep/24: Linux ported by XanderIsBored
 
