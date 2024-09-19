@@ -68,6 +68,23 @@ pip install requests
 
 4. make sure to run updateinstall.py to update regularly
 
+commands:
+
+type file in repo name in to download in folder that the python is in.
+example:
+```
+search-testing-test.txt
+```
+this will download the file "search-testing-test.txt"
+
+list command:
+
+type:
+
+```
+search-list
+```
+to list downloadable files.
 ChromeBook:
 
 Enable Linux Dev Enviroment.
