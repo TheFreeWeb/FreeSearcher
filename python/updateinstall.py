@@ -1,4 +1,3 @@
-# Write your code here :-)
 import requests, os
 r = requests.get('https://raw.githubusercontent.com/Martycat111/Freesearcher-python-download/refs/heads/main/freesearcher-python.py')
 if r.status_code == 200:
