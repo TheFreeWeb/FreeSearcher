@@ -57,21 +57,16 @@ This will download One Piece volume 1.
 
 Python:
 
-1. install requests library
-```
-pip install requests
-```
+1. cd to the directory.
 
-2. install tqdm library
+2. install requirements (using cmd)
 ```
-pip install tqdm
+ pip install -r requirements. txt
 ```
 
-2. run updateinstall.py to install
+2. run main.py
 
-3. run freesearcher-python.py to use!
-
-4. make sure to run updateinstall.py to update regularly
+Execute commands!
 
 commands:
 
