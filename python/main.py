@@ -8,7 +8,7 @@ from playsound import playsound  # Import the playsound library
 # ANSI escape codes for colors
 YELLOW = "\033[33m"
 BLUE = "\033[34m"
-WHITE = "\033[37m"  # Added white color
+WHITE = "\033[37m"
 RESET = "\033[0m"
 
 # Welcome message
@@ -69,13 +69,26 @@ def download_file(command):
             else:
                 play_error_sound()  # Play error sound
         else:
+            print(f"{YELLOW}Command '{command}' not found.{RESET}")
             play_error_sound()  # Play error sound
     except Exception:
         play_error_sound()  # Play error sound
+
+def list_available_commands():
+    commands = get_commands()
+    if commands:
+        print(f"{YELLOW}Available Commands:{RESET}")
+        for command in commands:
+            print(f"- {BLUE}{command}{RESET}")
+    else:
+        print(f"No commands available or an error occurred.")
+        play_error_sound()
 
 while True:
     user_input = input(">>> ").strip()  # Strip spaces/newlines
     if not user_input:  # Check if input is empty
         print("Please enter a valid command.")
+    elif user_input == "search-list":
+        list_available_commands()  # List all available commands
     else:
         download_file(user_input)
