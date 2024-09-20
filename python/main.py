@@ -2,6 +2,12 @@ import os
 import requests
 import json
 
+YELLOW = "\033[33m"
+BLUE = "\033[34m"
+RESET = "\033[0m"
+
+print(f"Welcome to V1.4 of the FreeSearcher CLI {YELLOW}Python Edition{RESET}{BLUE}.")
+
 commands_url = "https://raw.githubusercontent.com/TheFreeWeb/FreeSearcher/refs/heads/main/python/commands.json"
 
 def get_commands():
@@ -31,5 +37,5 @@ def download_file(command):
     else:
         print(f"Command '{command}' not recognized.")
 
-user_input = input("Enter command: ")
+user_input = input(">>> ")
 download_file(user_input)
