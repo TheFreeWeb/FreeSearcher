@@ -110,6 +110,8 @@ Variable 5 is the number of media. Usually this is a number, but special variabl
 
 ## Changelog
 
+20/sep/24: Python port one upgraded, cmds removed but main files work now by WooRepo
+
 18/sep/24: Python port one released by MartyCat111
 
 8/sep/24: Linux ported by XanderIsBored
