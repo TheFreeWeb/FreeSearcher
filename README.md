@@ -62,6 +62,11 @@ Python:
 pip install requests
 ```
 
+2. install tqdm library
+```
+pip install tqdm
+```
+
 2. run updateinstall.py to install
 
 3. run freesearcher-python.py to use!
