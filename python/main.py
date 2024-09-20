@@ -2,7 +2,7 @@ import os
 import requests
 import json
 
-commands_url = "https://raw.githubusercontent.com/username/repo/branch/commands.json"
+commands_url = "https://raw.githubusercontent.com/TheFreeWeb/FreeSearcher/refs/heads/main/python/commands.json"
 
 def get_commands():
     response = requests.get(commands_url)
