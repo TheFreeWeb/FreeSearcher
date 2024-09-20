@@ -17,7 +17,6 @@ print(f"Welcome to V1.4 of the FreeSearcher CLI {YELLOW}Python {BLUE}Edition{RES
 commands_url = "https://raw.githubusercontent.com/TheFreeWeb/FreeSearcher/refs/heads/main/python/commands.json"
 
 def play_error_sound():
-    """Play the error sound when an exception occurs."""
     try:
         playsound('errorXP.mp3')  # Assumes the file is in the current directory
     except Exception:
