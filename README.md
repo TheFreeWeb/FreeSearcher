@@ -127,6 +127,6 @@ Linux port by XanderIsBored
 
 ## Contributing
 
-> Send files as a catbox or fileditch link, in an ISSUE request.
+> Send files as a catbox or fileditch link, in an ISSUE request or submit an application here: https://forms.gle/1DCCX7xieW73pTqf8
 > You may also help support the project by refining code.
 Help create batch scripts in the links repo here: https://github.com/TheFreeWeb/freesearcherlinkdir
