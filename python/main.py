@@ -3,6 +3,7 @@ import requests
 import json
 from tqdm import tqdm
 import time
+from playsound import playsound  # Import playsound
 
 YELLOW = "\033[33m"
 BLUE = "\033[34m"
@@ -13,6 +14,13 @@ print(f"Welcome to V1.4 of the FreeSearcher CLI {YELLOW}Python {BLUE}Edition{RES
 
 commands_url = "https://raw.githubusercontent.com/TheFreeWeb/FreeSearcher/refs/heads/main/python/commands.json"
 
+def play_error_sound():
+    # Function to play error sound
+    try:
+        playsound('errorXP.mp3')
+    except Exception as e:
+        print(f"Failed to play error sound: {e}")
+
 def get_commands():
     try:
         response = requests.get(commands_url)
@@ -20,10 +28,13 @@ def get_commands():
             try:
                 return json.loads(response.text)
             except json.JSONDecodeError:
+                play_error_sound()  # Play sound on JSON decode error
                 return {}
         else:
+            play_error_sound()  # Play sound on failed response
             return {}
     except Exception:
+        play_error_sound()  # Play sound on request error
         return {}
 
 def download_file(command):
@@ -56,10 +67,13 @@ def download_file(command):
                     time.sleep(wait_time)
             else:
                 print("Failed to download the file after multiple attempts.")
+                play_error_sound()  # Play sound on download failure
         else:
             print(f"{YELLOW}Command '{command}' not found.{RESET}")
+            play_error_sound()  # Play sound on invalid command
     except Exception:
         print("An error occurred while downloading the file.")
+        play_error_sound()  # Play sound on other exceptions
 
 def list_available_commands():
     commands = get_commands()
@@ -69,6 +83,7 @@ def list_available_commands():
             print(f"- {BLUE}{command}{RESET}")
     else:
         print("No commands available or an error occurred.")
+        play_error_sound()  # Play sound if no commands are available or an error occurred
 
 while True:
     user_input = input(">>> ").strip()
