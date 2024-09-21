@@ -88,6 +88,7 @@ Variable 2 is the type of media. Currently, this includes
 >Show
 >Movie
 >Text
+>Game
 
 Variable 3 is the name of the media. multiple words are separated by a dash.
 
