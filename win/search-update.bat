@@ -1,3 +1,4 @@
+@echo off
 echo Checking for updates!
 curl -L https://github.com/TheFreeWeb/freesearcherlinkdir/archive/refs/heads/main.zip > freesearcherlinkdir-main.zip NUL 2>&1
 IF NOT EXIST freesearcherlinkdir-main.zip (
