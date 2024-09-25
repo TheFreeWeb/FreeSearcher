@@ -3,7 +3,7 @@
     "description": "FreeSearcher is a tool for finding safe downloads for media.",
     "homepage": "https://github.com/TheFreeWeb/FreeSearcher",
     "license": "GPL-3.0",
-    "url": "https://github.com/TheFreeWeb/FreeSearcher/raw/main/scoop/freesearcher.zip",  // Raw URL for the ZIP file
+    "url": "https://github.com/TheFreeWeb/FreeSearcher/raw/main/scoop/freesearcher.zip", 
     "hash": "sha256:cd4e7f07715a7ebf5716f8d845cc276bb1baa9d3f5c10bd4e49bca2ec5da4b20",
     "bin": "run.ps1", 
     "shortcuts": [
