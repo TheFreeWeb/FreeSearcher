@@ -57,14 +57,9 @@ This will download One Piece volume 1.
 
 Python:
 
-1. cd to the directory.
+1. run main.py
 
-2. install requirements (using cmd)
-```
- pip install -r requirements.txt
-```
-
-2. run main.py
+2. Use like windows version (NOT windows setup)
 
 ChromeBook:
 
