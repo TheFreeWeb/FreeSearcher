@@ -1,7 +1,7 @@
 @ECHO off
+title FreeSearcher
 color 3
 ECHO Welcome to V1.4 of the FreeSearcher CLI 
-color 7
 cd /d %~dp0
 echo Checking for updates!
 curl -L https://github.com/TheFreeWeb/freesearcherlinkdir/archive/refs/heads/main.zip > freesearcherlinkdir-main.zip 
