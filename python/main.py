@@ -88,5 +88,7 @@ while True:
         print("Please enter a valid file name.")
     elif user_input == "search-list":
         list_available_files()
+    elif user_input == goob or Goob:
+        print(f"{RED}goob.exe{BLUE} installed succsessfully. {YELLOW}WATCH OUT!{RESET}")
     else:
         download_file(user_input)
