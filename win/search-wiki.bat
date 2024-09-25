@@ -1,2 +1,3 @@
 @echo off
-start "" "https://github.com/TheFreeWeb/FreeSearcher/wiki"
+echo Opening Wiki!
+start "" "https://freeweb.gitbook.io/freesearcher"
