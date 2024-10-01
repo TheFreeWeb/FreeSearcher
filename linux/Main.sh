@@ -20,7 +20,7 @@ fi
 
 
 echo -e "${yellow}Welcome to V1.4 of the FreeSearcher CLI ${blue}Linux Edition"
-echo -e "${yellow}enter your prompt:${blue}"
+echo -e "${yellow}enter your command:${blue}"
 
 read location
 
